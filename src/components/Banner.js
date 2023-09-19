@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Developer" ];
+  const toRotate = ["Web Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Graehm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Graehm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
                     Campaign strategist and business operations wiz turned Full Stack Software Developer. Adaptable and quick to pick up both technical and project-oriented processes - I know how to work with a variety of teams on a range of projects. 
                     I thrive in collaborative teams that require a resource-conscious developer who thinks out of the box.
