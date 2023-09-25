@@ -35,43 +35,43 @@ export const Skills = () => {
                         <p>MERN Stack WEb Developer</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={'https://i.imgur.com/GLGXjBl.png'} alt="" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>CSS Flex</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>CSS Grid</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>Express</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>Node</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="Image" />
+                                <img src={''} alt="" />
                                 <h5>Mongoose</h5>
                             </div>
                         </Carousel>
