@@ -10,7 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  // const [index, setIndex] = useState(1);
   const toRotate = ["Web Developer" ];
   const period = 2000;
 
@@ -35,15 +35,15 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex(prevIndex => prevIndex - 1);
+      // setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
+      // setIndex(1);
       setDelta(500);
     } else {
-      setIndex(prevIndex => prevIndex + 1);
+      // setIndex(prevIndex => prevIndex + 1);
     }
   }
 
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Graehm`}</h1>
-                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Graehm,`}</h1>
+                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "A Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
                     Campaign strategist and business operations wiz turned Full Stack Software Developer. Adaptable and quick to pick up both technical and project-oriented processes - I know how to work with a variety of teams on a range of projects. 
                     I thrive in collaborative teams that require a resource-conscious developer who thinks out of the box.
