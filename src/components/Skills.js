@@ -35,11 +35,11 @@ export const Skills = () => {
                         <p>MERN Stack WEb Developer</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={'https://i.imgur.com/GLGXjBl.png'} alt="" />
+                                <img src={'https://i.imgur.com/zDdauC8.png'} alt="" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/kXVC6WF.png'} alt="" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
