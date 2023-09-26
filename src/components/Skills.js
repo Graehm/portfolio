@@ -47,6 +47,10 @@ export const Skills = () => {
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
+                                <img src={'https://i.imgur.com/ObkC2Ij.png'} alt="" />
+                                <h5>Flexbox</h5>
+                            </div>
+                            <div className="item">
                                 <img src={'https://i.imgur.com/qm43XQr.png'} alt="" />
                                 <h5>Express</h5>
                             </div>
@@ -67,15 +71,23 @@ export const Skills = () => {
                                 <h5>Mongoose</h5>
                             </div>
                             <div className="item">
-                                <img src={'https://i.imgur.com/qVgHHRd.png'} alt="" />
-                                <h5>Digital Ocean</h5>
-                            </div>
-                            <div className="item">
                                 <img src={'https://i.imgur.com/jJ21nhb.png'} alt="" />
                                 <h5>JWT Auth Token</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/qVgHHRd.png'} alt="" />
+                                <h5>Digital Ocean</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/qR8bT95.png'} alt="" />
+                                <h5>Namecheap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/yRo4yZi.png'} alt="" />
+                                <h5>Heroku</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/eIH8bHs.png'} alt="" />
                                 <h5>Git</h5>
                             </div>
                         </Carousel>
