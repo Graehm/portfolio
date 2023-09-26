@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+// import arrow1 from "../assets/img/arrow1.svg";
+// import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -32,54 +32,58 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>MERN Stack WEb Developer</p>
+                        <p>I am currently continuing with MERN stack, and am learning Next.js and TypeScript</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={'https://i.imgur.com/zDdauC8.png'} alt="" />
+                                <img src={'https://i.imgur.com/a0bWaVQ.png'} alt="" />
                                 <h5>JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/7gvNqGH.png'} alt="" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
                                 <img src={'https://i.imgur.com/kXVC6WF.png'} alt="" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
-                                <h5>CSS</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>CSS Flex</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
-                                <h5>CSS Grid</h5>
-                            </div>
-                            <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/qm43XQr.png'} alt="" />
                                 <h5>Express</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/pMQCOLK.png'} alt="" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
-                                <h5>Node</h5>
+                                <img src={'https://i.imgur.com/OK0U2Qm.png'} alt="" />
+                                <h5>Node.js</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/0ff3y8k.png'} alt="" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={''} alt="" />
+                                <img src={'https://i.imgur.com/QV8eTUT.png'} alt="" />
                                 <h5>Mongoose</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/qVgHHRd.png'} alt="" />
+                                <h5>Digital Ocean</h5>
+                            </div>
+                            <div className="item">
+                                <img src={'https://i.imgur.com/jJ21nhb.png'} alt="" />
+                                <h5>JWT Auth Token</h5>
+                            </div>
+                            <div className="item">
+                                <img src={''} alt="" />
+                                <h5>Git</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
