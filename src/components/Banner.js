@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+// import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -62,7 +62,7 @@ export const Banner = () => {
                     Campaign strategist and business operations wiz turned Full Stack Software Developer. Adaptable and quick to pick up both technical and project-oriented processes - I know how to work with a variety of teams on a range of projects. 
                     I thrive in collaborative teams that require a resource-conscious developer who thinks out of the box.
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
