@@ -12,3 +12,5 @@ function Comment ({ comment }) {
       </div>
     );
   }
+
+export default Comment;
