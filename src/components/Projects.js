@@ -13,10 +13,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Tic Tac Toe",
-      description: "OOP structure",
-      imgUrl: projImg1,
-      link: 'https://exquisite-nougat-5d8b25.netlify.app/'
+      title: "Fallmart",
+      description: "An e commerce MERN Stack app",
+      imgUrl: projImg3,
+      link: 'https://fallmart.graehm.me/'
     },
     {
       title: "BimmerBits",
@@ -25,11 +25,11 @@ export const Projects = () => {
       link: 'https://bimmerbits.graehm.me/'
     },
     {
-      title: "Fallmart",
-      description: "An e commerce MERN Stack app",
-      imgUrl: projImg3,
-      link: 'https://fallmart.graehm.me/'
-    },
+      title: "Tic Tac Toe",
+      description: "OOP structure",
+      imgUrl: projImg1,
+      link: 'https://exquisite-nougat-5d8b25.netlify.app/'
+    }
   ];
 
   return (
