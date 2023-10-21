@@ -6,12 +6,22 @@ import TrackVisibility from 'react-on-screen';
 
 import { useForm, ValidationError } from "@formspree/react"
 
-const Contact = () => {
+export const Contact = () => {
   const [state, handleSubmit] = useForm("xnqkwqya");
   if(state.suceeded) {
     return <p>Thank you for reaching out!</p>
   }
+
+  return (
+    <section className="container" id="connect">
+      <Container>
+
+      </Container>
+    </section>
+  )
 }
+
+export default Contact;
 
 // pick up but integrating formspree and Jefreys help code into my existing JSX below//
 
