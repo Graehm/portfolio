@@ -15,7 +15,15 @@ export const Contact = () => {
   return (
     <section className="container" id="connect">
       <Container>
-
+        <Row className="align-items-center">
+          <Col size={12} md={6}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+              }
+            </TrackVisibility>
+          </Col>
+        </Row>
       </Container>
     </section>
   )
