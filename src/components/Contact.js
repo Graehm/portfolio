@@ -4,8 +4,16 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+import { useForm, ValidationError } from "@formspree/react"
 
+const Contact = () => {
+  const [state, handleSubmit] = useForm("xnqkwqya");
+  if(state.suceeded) {
+    return <p>Thank you for reaching out!</p>
+  }
+}
 
+// pick up but integrating formspree and Jefreys help code into my existing JSX below//
 
 // -------------- OG contact form ------------------- //
 // export const Contact = () => {
