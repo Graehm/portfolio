@@ -30,14 +30,10 @@ export const Contact = () => {
                   <h2>Get In Touch</h2>
                     <form onSubmit={handleSubmit}>
                       <Row>
-                        <label htmlFor="name" className="px-1">First Name</label>
-                        <input
-                          id="name"
-                          type="name"
-                          name="name"
-                          placeholder="First Name">
-                        </input>
-                        <ValidationError prefix="Name" field="name" errors={state.errors} />
+                        <Col size={12} md={6} className="px-1" htmlFor="first-name">
+                          <input type="text" id="name" name="name"placeholder="First Name"></input>
+                          <ValidationError prefix="Name" field="name" errors={state.errors} />
+                        </Col>
                       </Row>
                     </form>
                 </div>
