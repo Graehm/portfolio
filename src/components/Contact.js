@@ -29,7 +29,16 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Get In Touch</h2>
                     <form onSubmit={handleSubmit}>
-                      
+                      <Row>
+                        <label htmlFor="name" className="px-1">First Name</label>
+                        <input
+                          id="name"
+                          type="name"
+                          name="name"
+                          placeholder="First Name">
+                        </input>
+                        <ValidationError prefix="Name" field="name" errors={state.errors} />
+                      </Row>
                     </form>
                 </div>
               }
