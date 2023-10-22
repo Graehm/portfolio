@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, {useState } from "react"
+// import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
@@ -9,7 +10,7 @@ import { useForm, ValidationError } from "@formspree/react"
 export const Contact = () => {
   const [state, handleSubmit] = useForm("xnqkwqya");
   if(state.suceeded) {
-    return <p>Thank you for reaching out!</p>
+    return <p>Thank you for reaching out</p>
   }
 
   return (
@@ -88,8 +89,6 @@ export const Contact = () => {
 }
 
 export default Contact;
-
-// pick up but integrating formspree and Jefreys help code into my existing JSX below//
 
 // -------------- OG contact form ------------------- //
 // export const Contact = () => {
