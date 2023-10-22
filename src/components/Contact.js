@@ -68,11 +68,11 @@ export const Contact = () => {
                           <ValidationError prefic="Phone Number" field="phone number" errors={state.errors}/>
                         </Col>
                         <Col size={12} className="px-1">
-                          <input
+                          <textarea
                             rows="6"
                             className="px-1"
                             placeholder="Message">   
-                          </input>
+                          </textarea>
                           <ValidationError prefix="Message" field="message" errors={state.errors} />
                         </Col>
                         <button type="submit" disabled={state.submitting}>Send</button>
