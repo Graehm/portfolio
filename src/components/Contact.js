@@ -27,7 +27,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""} alt="">
                   <h2>Get In Touch</h2>
                     <form onSubmit={handleSubmit}>
                       <Row>
@@ -71,6 +71,7 @@ export const Contact = () => {
                           <textarea
                             rows="6"
                             className="px-1"
+                            name="message"
                             placeholder="Message">   
                           </textarea>
                           <ValidationError prefix="Message" field="message" errors={state.errors} />
