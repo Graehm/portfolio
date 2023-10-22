@@ -14,7 +14,7 @@ export const Contact = () => {
   }
 
   return (
-    <section className="container" id="connect">
+    <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -70,6 +70,7 @@ export const Contact = () => {
                         <Col size={12} className="px-1">
                           <textarea
                             rows="6"
+                            width="12"
                             className="px-1"
                             name="message"
                             placeholder="Message">   
