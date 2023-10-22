@@ -60,7 +60,7 @@ export const Contact = () => {
                         </Col>
                         <Col size={12} md={6} className="px-1" html="Phone Number">
                           <input
-                            type="number"
+                            type="text"
                             id="number"
                             name="number"
                             placeholder="Phone No.">
