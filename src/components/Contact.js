@@ -31,9 +31,50 @@ export const Contact = () => {
                     <form onSubmit={handleSubmit}>
                       <Row>
                         <Col size={12} md={6} className="px-1" htmlFor="first-name">
-                          <input type="text" id="name" name="name"placeholder="First Name"></input>
+                          <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="First Name">
+                          </input>
                           <ValidationError prefix="Name" field="name" errors={state.errors} />
                         </Col>
+                        <Col size={12} md={6} className="px-1" html="lastName">
+                          <input
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Last Name">
+                          </input>
+                          <ValidationError prefic="Name" field="name" errors={state.errors} />
+                        </Col>
+                        <Col size={12} md={6} className="px-1" html="email">
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email">
+                          </input>
+                          <ValidationError prefic="Email" field="email" errors={state.errors}/>
+                        </Col>
+                        <Col size={12} md={6} className="px-1" html="Phone Number">
+                          <input
+                            type="number"
+                            id="number"
+                            name="number"
+                            placeholder="Phone Number">
+                          </input>
+                          <ValidationError prefic="Phone Number" field="phone number" errors={state.errors}/>
+                        </Col>
+                        <Col size={12} className="px-1">
+                          <input
+                            rows="6"
+                            className="px-1"
+                            placeholder="Message">   
+                          </input>
+                          <ValidationError prefix="Message" field="message" errors={state.errors} />
+                        </Col>
+                        <button type="submit" disabled={state.submitting}>Send</button>
                       </Row>
                     </form>
                 </div>
