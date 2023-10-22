@@ -63,7 +63,7 @@ export const Contact = () => {
                             type="number"
                             id="number"
                             name="number"
-                            placeholder="Phone Number">
+                            placeholder="Phone No.">
                           </input>
                           <ValidationError prefic="Phone Number" field="phone number" errors={state.errors}/>
                         </Col>
