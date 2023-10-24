@@ -1,5 +1,6 @@
-import React, {useState } from "react"
+// import React, { useState } from "react"
 // import { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
@@ -9,7 +10,7 @@ import { useForm, ValidationError } from "@formspree/react"
 
 export const Contact = () => {
   const [state, handleSubmit] = useForm("xnqkwqya");
-  if(state.suceeded) {
+  if(state.succeeded) {
     return <p>Thank you for reaching out</p>
   }
 
@@ -56,7 +57,7 @@ export const Contact = () => {
                             name="email"
                             placeholder="Email">
                           </input>
-                          <ValidationError prefic="Email" field="email" errors={state.errors}/>
+                          <ValidationError prefix="Email" field="email" errors={state.errors}/>
                         </Col>
                         <Col size={12} md={6} className="px-1" html="Phone Number">
                           <input
@@ -65,7 +66,7 @@ export const Contact = () => {
                             name="number"
                             placeholder="Phone No.">
                           </input>
-                          <ValidationError prefic="Phone Number" field="phone number" errors={state.errors}/>
+                          <ValidationError prefix="Phone Number" field="phone number" errors={state.errors}/>
                         </Col>
                         <Col size={12} className="px-1">
                           <textarea
@@ -89,8 +90,6 @@ export const Contact = () => {
     </section>
   )
 }
-
-export default Contact;
 
 // -------------- OG contact form ------------------- //
 // export const Contact = () => {
