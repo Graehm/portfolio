@@ -1,12 +1,11 @@
 // import React, { useState } from "react"
 // import { useState } from "react";
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react"
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
-import { useForm, ValidationError } from "@formspree/react"
 
 export const Contact = () => {
   const [state, handleSubmit] = useForm("xnqkwqya");

@@ -36,11 +36,11 @@ export const Projects = () => {
     <Router>
       <section className="project" id="projects">
         <Container>
-          <Row>
+          <Row >
             <Col size={12}>
               <TrackVisibility>
                 {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+                <div className={isVisible ? "animate__animated animate__fadeIn": ""} >
                   <h2>Projects</h2>
                   <p>Preview and view my deployed projects below</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
