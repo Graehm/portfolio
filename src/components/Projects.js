@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+// import { Grid } from "react-bootstrap-icons";
 
 
 export const Projects = () => {
@@ -47,7 +48,12 @@ export const Projects = () => {
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab"></Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
-                        <Row>
+                        <div style={{
+                          // border: "1px solid red",
+                          display: "Grid",
+                          gap: "1rem",
+                          gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))"
+                        }}>
                           {
                             projects.map((project, index) => {
                               return (
@@ -57,7 +63,7 @@ export const Projects = () => {
                               )
                             })
                           }
-                        </Row>
+                        </div>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
