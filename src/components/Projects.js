@@ -57,9 +57,11 @@ export const Projects = () => {
                           {
                             projects.map((project, index) => {
                               return (
-                                <Link key={index} to={project.link}>
-                                  <ProjectCard {...project} />
-                                </Link>
+                                <div style={{ border: "" }}>
+                                  <Link key={index} to={project.link} style={{ width: "max-content" }}>
+                                    <ProjectCard {...project} />
+                                  </Link>
+                                </div>
                               )
                             })
                           }
