@@ -52,7 +52,7 @@ export const Projects = () => {
                           // border: "1px solid red",
                           display: "Grid",
                           gap: "1rem",
-                          gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))"
+                          gridTemplateColumns: "repeat(auto-fill, minmax(370px, 1fr))"
                         }}>
                           {
                             projects.map((project, index) => {
