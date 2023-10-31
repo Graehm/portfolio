@@ -58,7 +58,7 @@ export const Projects = () => {
                             projects.map((project, index) => {
                               return (
                                 <div style={{ border: "" }}>
-                                  <Link key={index} to={project.link} style={{ width: "max-content" }}>
+                                  <Link key={index} to={project.link} style={{ width: "min-content" }}>
                                     <ProjectCard {...project} />
                                   </Link>
                                 </div>
